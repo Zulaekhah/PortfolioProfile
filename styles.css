@@ -25,7 +25,7 @@ time, mark, audio, video {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
-}
+    }
 
 body {
     line-height:1;
@@ -132,7 +132,6 @@ header nav ul{
 
 header nav ul li{
     display: inline-block;
-    float: left;
     list-style: none;
     padding: 0 16px;
 }
@@ -296,6 +295,8 @@ header .header-cases{
 .index-links div h3{
     line-height: 230px;
 }
+}
+
 /* footer */
 footer{
     background-color: #111;
@@ -337,18 +338,20 @@ footer ul li a{
     width: 100%;
     margin-bottom: 10px;
 }
-
+}
 @media only screen and (min-width: 1000px){
     .footer-links-cases{
-        display: block;
+        display: block;   
     }
+
     footer ul{
         padding-right: 30px
     }
+
     footer ul li p{
         font-family: Catamaran;
         font-size: 24px;
         color: #fff;
         line-height: 40px;
-    }
+   }
 }
